@@ -8,7 +8,6 @@ COPY *.js .
 RUN npm install
 CMD ["node","index.js"]
 
-
 # Before best practices implemented
 # FROM node:20
 # EXPOSE 8080
